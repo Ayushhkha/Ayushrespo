@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Varela+Round&display=swap');
+
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;padding: 0;
+}
+nav{
+    font-family: 'Fasthand', cursive;
+    font-family: 'Varela Round', sans-serif;
+    ;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+    height: 55px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    align-items: center;
+}
+
+nav ul li{
+    padding: 0 10px;
+}
+
+.logo img{
+    padding: 0 8px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.cont{
+    min-height: 75vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70%;
+    height: 40%;
+    margin: 23px auto;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Varela Round', sans-serif;
+    padding: 30px;
+    background-image: url('web bg.jpg');
+    background-size: cover;
+}
+.bottom{
+    background-color: black;
+    height: 110px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.songame{
+    position:absolute;
+    margin-top: 0;
+    font-family: 'Fasthand', cursive;
+    font-family: 'Varela Round', sans-serif;
+}
+#progress{
+    width: 70vw;
+    text-align: center;
+    padding: 20px 0;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 2px;
+}
+.icons i{
+    cursor: pointer;
+}
+.songitem{
+    height: 35px;
+    display: flex;
+    background-color: white;
+    color: black;
+    width: 350px;
+    padding: 10px 0;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+
+}
+.songitem img{
+    border-radius: 30px;
+    text-align: center;
+    margin: 0;
+    left: 2px;
+
+}
+.time{
+    margin: 0 15px;
+    cursor: pointer;
+}
